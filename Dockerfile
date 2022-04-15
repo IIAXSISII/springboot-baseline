@@ -22,4 +22,4 @@ CMD java -jar /data/springboot-baseline-0.1.jar
 
 #copy hello world to docker image from builder image
 
-COPY --from=maven_build /tmp/target/springboot-baseline-0.1.jar /data/springboot-baseline0.1.jar
+COPY --from=maven_build /tmp/target/springboot-baseline-0.1.jar /data/springboot-baseline-0.1.jar
