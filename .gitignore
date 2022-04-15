@@ -1,0 +1,35 @@
+# common files 
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+target/
+.loadpath
+
+# Eclipse
+.classpath
+.buildpath
+.target
+.project
+*.launch
+.externalToolBuilders/
+
+
+# VS Code:
+.vscode/launch.json
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+.idea
+*.iml
+*.ipr
+/data
+
